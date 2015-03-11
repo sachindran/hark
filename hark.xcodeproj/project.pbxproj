@@ -14,6 +14,7 @@
 		03C6D22B1AAE407400B636FF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03C6D22A1AAE407400B636FF /* Images.xcassets */; };
 		03C6D22E1AAE407500B636FF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03C6D22C1AAE407500B636FF /* LaunchScreen.xib */; };
 		03C6D23A1AAE407500B636FF /* harkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C6D2391AAE407500B636FF /* harkTests.m */; };
+		03C6D2441AAE41C800B636FF /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 03C6D2431AAE41C800B636FF /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		03C6D2331AAE407500B636FF /* harkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = harkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C6D2381AAE407500B636FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		03C6D2391AAE407500B636FF /* harkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = harkTests.m; sourceTree = "<group>"; };
+		03C6D2431AAE41C800B636FF /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		03C6D2111AAE407400B636FF = {
 			isa = PBXGroup;
 			children = (
+				03C6D2431AAE41C800B636FF /* Settings.bundle */,
 				03C6D21C1AAE407400B636FF /* hark */,
 				03C6D2361AAE407500B636FF /* harkTests */,
 				03C6D21B1AAE407400B636FF /* Products */,
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C6D2441AAE41C800B636FF /* Settings.bundle in Resources */,
 				03C6D2291AAE407400B636FF /* Main.storyboard in Resources */,
 				03C6D22E1AAE407500B636FF /* LaunchScreen.xib in Resources */,
 				03C6D22B1AAE407400B636FF /* Images.xcassets in Resources */,
